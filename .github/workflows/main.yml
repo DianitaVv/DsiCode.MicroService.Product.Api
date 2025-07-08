@@ -1,0 +1,45 @@
+name: Compilar y Desplegar
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    paths:
+    -'DsiCode.MicroService.Product.API/**'
+    -'github/workflows/compilar-desplegar.yml'
+env:
+  VERSION_DOTNET: '9.0.x'
+jobs:
+  build:
+  runs-on: ubuntu-latest
+  env:
+    PROYECTO: DsiCode.MicroService.Product.API.csproj
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4.2.2
+    -name: Setup .NET SDK ${{ env.VERSION_DOTNET
+    include-prerealease: true
+
+    -name: Verificar SDK instalado
+     run: dotnet --info
+
+     -name: Listar estructura de carpetas
+     run: ls -R
+     
+     -name: Verificar SDK instalado
+     run: dotnet --info
+
+     -name: Listar estructura de carpetas 
+     run: la -R
+
+     - name:Cache Nuget packages
+     uses: actions/cache@v3
+
+     - name: Cache NuGet packages
+     uses: actions/cache@v3
+     with:
+       path: /.nugget/packages
+       key: nuget -¨*
+  
