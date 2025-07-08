@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsiCode.MicroService.Product.Api", "DsiCode.MicroService.Product.Api\DsiCode.MicroService.Product.Api.csproj", "{D28D887F-5DC1-4AA7-A25A-356861B60758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28D887F-5DC1-4AA7-A25A-356861B60758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28D887F-5DC1-4AA7-A25A-356861B60758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28D887F-5DC1-4AA7-A25A-356861B60758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28D887F-5DC1-4AA7-A25A-356861B60758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {570464C8-8D10-44C6-A7DB-0B0CB5EC2761}
+	EndGlobalSection
+EndGlobal

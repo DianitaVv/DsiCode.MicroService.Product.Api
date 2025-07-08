@@ -1,0 +1,6 @@
+@DsiCode.MicroService.Product.Api_HostAddress = http://localhost:5276
+
+GET {{DsiCode.MicroService.Product.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
